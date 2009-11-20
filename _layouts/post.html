@@ -14,7 +14,7 @@ layout: default
   blog comments powered by <span class="logo-disqus">Disqus</span>
 </a>
 <div id="related">
-  <h3>Related Posts</h3>
+  <h3>Vaguely Related Posts</h3>
   <ul class="posts">
     {% for post in site.related_posts limit:3 %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>

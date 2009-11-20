@@ -4,7 +4,7 @@ title: About Jorge Calás
 hide_meta: true
 ---
 
-I'm a [Ruby](http://ruby-lang.org) developer and system administrator located in Madrid. Currently I'm working for [Railsdog](http://railsdog.com) doing [Spree](http://spreecommerce.com) development. I'm also member of the Spree [core team](http://spreecommerce.com/core_team). You can contact me at calas@railsdog.com
+I'm a [Ruby](http://ruby-lang.org) developer and system administrator located in Madrid. Currently I'm working for [Railsdog](http://railsdog.com) doing [Spree](http://spreecommerce.com) development. I'm also member of the Spree [core team](http://spreecommerce.com/core_team). You can contact me at [calas@railsdog.com](mailto:calas@railsdog.com).
 
 ## About this site/blog ##
 
