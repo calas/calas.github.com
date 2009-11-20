@@ -2,7 +2,7 @@
 layout: post
 title: Using yasnippets in markdown mode.
 ---
-I've found that when using markdown-mode yasnippets's TAB completion doesn't work. It's just because TAB key is bind to markdown-cycle function. To change this behaviour I use the [following snippet](http://snipplr.com/view/7970/test/):
+I've found that when using markdown-mode yasnippets's `TAB` completion doesn't work. It's just because `TAB` key is bind to `markdown-cycle` function. To change this behaviour I use the [following snippet](http://snipplr.com/view/7970/test/) in my `.emacs` file:
 
 {% highlight cl %}
 ;; This goes into my .emacs file
@@ -12,4 +12,4 @@ I've found that when using markdown-mode yasnippets's TAB completion doesn't wor
 (add-hook 'markdown-mode-hook '(lambda() (markdown-unset-tab)))
 {% endhighlight %}
 
-Now I can expand yasnippets using TAB inside markdown-mode.
+Now I can expand yasnippets using `TAB` inside markdown-mode.
