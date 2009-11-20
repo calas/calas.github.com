@@ -17,9 +17,14 @@
       </a>
     </span>
     <span class="tags">
-      {% for tag in page.categories %}
-      &middot; <a href="/tags/{{tag}}" rel="tag">{{tag}}</a>
+      {% for tag in page.tags %}
+      &middot;
+      <a href='http://www.google.com/search?q={{ tag | escape }}+site:calas.github.com'>{{ tag }}</a>
       {% endfor %}
+    </span>
+    <span>
+      &middot;
+      <a href='{{ post.url }}#disqus_thread'>View Comments</a>
     </span>
 </div>
 {% endunless %}
